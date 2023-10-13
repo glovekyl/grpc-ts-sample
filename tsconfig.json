@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // "rootDir": ".",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    // custom stuff
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist", "src/**/*.test.ts"]
+}
